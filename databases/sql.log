@@ -1,0 +1,12 @@
+timestamp: 2019-08-27T15:19:16.961000
+CREATE TABLE "users"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "db_firstname" CHAR(512),
+    "db_lastname" CHAR(512),
+    "db_email" CHAR(512),
+    "db_password" CHAR(512)
+);
+success!
+timestamp: 2019-09-10T12:51:14.543000
+ALTER TABLE "users" ADD "db_choco" CHAR(512);
+success!
